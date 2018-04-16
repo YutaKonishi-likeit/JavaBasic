@@ -21,24 +21,26 @@ public class PTra01_07 {
 
 		// ★ それぞれの型変数に、値を代入してください
 		// ※ 値は、好きな数字を入力してください
-
-
-
-
-
-
+		bo = false;
+		by = 100;
+		s = 5000;
+		c = 'K';
+		i = 999999;
+		l = 100000000;
+		f = (float) 7.6;
+		d = 3.14159265358;
 
 
 
 		// ★ それぞれの変数の中身を出力してください
-
-
-
-
-
-
-
-
+		System.out.println(bo);
+		System.out.println(by);
+		System.out.println(s);
+		System.out.println(c);
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(f);
+		System.out.println(d);
 
 	}
 }
