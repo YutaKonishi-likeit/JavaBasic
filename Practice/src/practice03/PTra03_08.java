@@ -36,5 +36,21 @@ public class PTra03_08 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		int pay = 0;
+
+		switch(num) {
+		case 1:
+			pay = 150;
+			break;
+		case 2:
+			pay = 160;
+			break;
+		case 3:
+			pay = 200;
+			break;
+		}
+		money -= pay;
+		System.out.println("残り所持金:" + money);
+
 	}
 }
