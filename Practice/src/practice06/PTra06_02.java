@@ -11,11 +11,21 @@ public class PTra06_02 {
 
 		// ★ 20回繰り返しを行うfor文を記述してください
 		//-----for start
+		for (int i = 0; i < 20; i++) {
+
+
 
 			// ★ 今何回目の処理なのかを出力してください
+			System.out.println(i + 1 + "回目");
+
 
 
 			// ★ 奇数回のときには、「奇数」を出力してください
+			if ((i + 1) % 2 == 1) {
+				System.out.println("奇数");
+			}
+
+		}
 
 
 
