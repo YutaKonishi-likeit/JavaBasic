@@ -46,16 +46,53 @@ public class PTra04_05 {
 			 */
 			if (cpuHand == 0) {
 				System.out.println("グー！");
+				switch(myHand) {
+				case 0:
+					System.out.println("あいこです。まだ終わりません。");
+					continue;
+				case 1:
+					System.out.println("負けです。まだ終わりません。");
+					continue;
+				case 2:
+					System.out.println("勝ちました。終わり。");
+					winFlg = true;
+					break;
+				}
+
 
 
 
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
+				switch(myHand) {
+				case 0:
+					System.out.println("勝ちました。終わり。");
+					winFlg = true;
+					break;
+				case 1:
+					System.out.println("あいこです。まだ終わりません。");
+					continue;
+				case 2:
+					System.out.println("負けです。まだ終わりません。");
+					continue;
+				}
 
 
 
 			} else {
 				System.out.println("パー！！");
+				switch(myHand) {
+				case 0:
+					System.out.println("負けです。まだ終わりません。");
+					continue;
+				case 1:
+					System.out.println("勝ちました。終わり。");
+					winFlg = true;
+					break;
+				case 2:
+					System.out.println("あいこです。まだ終わりません。");
+					continue;
+				}
 
 
 
