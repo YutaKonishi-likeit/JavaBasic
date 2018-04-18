@@ -16,6 +16,14 @@ public class PTra10_04 {
 
 		// ★ User型の変数が3つ入る配列usersを宣言・確保してください
 		User[] users = new User[3];
+		User us1 = new User();
+		User us2 = new User();
+		User us3 = new User();
+
+		users[0] = us1;
+		users[1] = us2;
+		users[2] = us3;
+
 
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
@@ -42,6 +50,8 @@ public class PTra10_04 {
 			int Id = Integer.parseInt(Line[0]);
 
 
+
+			users[i].userId = Id;
 			users[i].userNm = Line[1];
 			users[i].mail = Line[2];
 			users[i].password = Line[3];
@@ -52,6 +62,7 @@ public class PTra10_04 {
 
 		// ★ usersに格納されている全てのインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
 		for (int i = 0; i < users.length; i++) {
+			System.out.println(i + 1 + "人目");
 			System.out.println(users[i].userId);
 			System.out.println(users[i].userNm);
 			System.out.println(users[i].mail);
