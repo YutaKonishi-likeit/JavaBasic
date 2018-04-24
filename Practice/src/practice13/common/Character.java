@@ -60,9 +60,7 @@ public class Character {
 		return this.power;
 	}
 
-	public int getAttack() {
-		return this.power;
-	}
+
 
 	/**
 	 * ダメージ判定を行います

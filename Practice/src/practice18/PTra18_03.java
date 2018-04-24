@@ -60,7 +60,7 @@ public class PTra18_03 {
         for (int i = 0; i < players.size(); i++) {
 
 
-        	if (players.get(i).getTeam().contains("バルセロナ")) {
+        	if (players.get(i).getTeam().contains("バルセロナ") || players.get(i).getTeam().contains("レアル・マドリード")) {
         		players.remove(i);
         	}
         }
@@ -72,7 +72,7 @@ public class PTra18_03 {
 		// ★ 削除後のArrayListの中身を全件出力してください
 
         for (Player player: players) {
-        	System.out.println(player.toString());
+        	System.out.println(player);
 
         }
 

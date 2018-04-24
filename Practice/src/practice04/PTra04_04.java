@@ -41,7 +41,11 @@ public class PTra04_04 {
 
 
 			// ★ 「残り##マス」と出力してください（##には、残りマスの数を入れてください）
-			System.out.println("残り" + (map - progress) + "マス");
+			if ( map - progress > 0) {
+				System.out.println("残り" + (map - progress) + "マス");
+			} else {
+				System.out.println("ゴール！");
+			}
 
 		}
 

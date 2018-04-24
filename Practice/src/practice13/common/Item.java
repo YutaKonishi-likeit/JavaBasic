@@ -2,7 +2,7 @@ package practice13.common;
 
 public class Item {
 	private String name;
-	private int aditinalDamage;
+	private int additionalDamage;
 
 
 
@@ -13,16 +13,18 @@ public class Item {
 		return this.name;
 	}
 
-	public void setAditinalDamage(int aditinalDamage) {
-		this.aditinalDamage = aditinalDamage;
+	public void setAditinalDamage(int additionalDamage) {
+		this.additionalDamage = additionalDamage;
 	}
 	public int getAditinalDamage() {
-		return this.aditinalDamage;
+		return this.additionalDamage;
 	}
 
 
 
-	public Item (String name, int aditinaDamage) {
+	public Item(String name, int additionalDamage) {
+		this.name = name;
+		this.additionalDamage = additionalDamage;
 	}
 
 }

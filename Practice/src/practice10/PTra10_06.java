@@ -20,15 +20,9 @@ public class PTra10_06 {
 		 */
 		// ★ Car型の変数carを宣言し、Carクラスのインスタンスを代入してください
 		Car[] cars = new Car[3];
-		Car car1 = new Car();
-		Car car2 = new Car();
-		Car car3 = new Car();
-
-		cars[0] = car1;
-		cars[1] = car2;
-		cars[2] = car3;
 
 		for (int i = 0; i < cars.length; i++) {
+			cars[i] = new Car();
 
 
 

@@ -72,7 +72,7 @@ public class PTra18_02 {
 
 
         for (Player player: players) {
-        	System.out.println(player.toString());
+        	System.out.println(player);
 
         }
 

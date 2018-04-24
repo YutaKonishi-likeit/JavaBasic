@@ -17,8 +17,7 @@ public class PTra16_03 {
 	 */
 
 	public String toString() {
-		Object tostring = new Object();
-		return tostring.toString() + "\n" + "PTra16_03#toString()の処理";
+		return super.toString() + "\n" + "PTra16_03#toString()の処理";
 
 	}
 

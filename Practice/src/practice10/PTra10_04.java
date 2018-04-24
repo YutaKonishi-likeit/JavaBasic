@@ -16,13 +16,6 @@ public class PTra10_04 {
 
 		// ★ User型の変数が3つ入る配列usersを宣言・確保してください
 		User[] users = new User[3];
-		User us1 = new User();
-		User us2 = new User();
-		User us3 = new User();
-
-		users[0] = us1;
-		users[1] = us2;
-		users[2] = us3;
 
 
 
@@ -51,6 +44,8 @@ public class PTra10_04 {
 
 
 
+
+			users[i] = new User();
 			users[i].userId = Id;
 			users[i].userNm = Line[1];
 			users[i].mail = Line[2];

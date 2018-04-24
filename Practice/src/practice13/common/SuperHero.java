@@ -1,25 +1,22 @@
 package practice13.common;
 
-public class SuperHero extends practice13.common.Character {
+public class SuperHero extends Hero {
 
-	public SuperHero() {
-		super(25, 10, 7);
-		// TODO 自動生成されたコンストラクター・スタブ
-	}
 
-	practice13.common.Item equipment;
+
+	private Item equipment;
 
 
 	public int attack() {
-		return (this.getAttack() + equipment.getAditinalDamage());
+		return super.attack() + this.equipment.getAditinalDamage();
 	}
 
-	public void setEquipment(practice13.common.Item equipment) {
+	public void setEquipment(Item equipment) {
 		this.equipment = equipment;
 	}
 
-	public practice13.common.Item getEquipment() {
-		return this.equipment;
+	public Item getEquipment() {
+		return equipment;
 	}
 
 }

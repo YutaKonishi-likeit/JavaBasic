@@ -22,41 +22,28 @@ public class PTra03_09 {
 
 		System.out.println("０～６までの数字を入力して下さい。");
 
-		String line = scanner.nextLine();
 
-		int num = Integer.parseInt(line);
 
-		String week = null;
+		int num = scanner.nextInt();
 
-		switch(num) {
-		case 0:
-			week = "日曜";
-			break;
-		case 1:
-			week = "月曜";
-			break;
-		case 2:
-			week = "火曜";
-			break;
-		case 3:
-			week = "水曜";
-			break;
-		case 4:
-			week = "木曜";
-			break;
-		case 5:
-			week = "金曜";
-			break;
-		case 6:
-			week = "土曜";
-			break;
-		default:
-			System.out.println("０～６までの数字を入力して下さい。");
+
+
+		if (num == 0) {
+			System.out.println("日曜");
+		} else if (num == 1) {
+			System.out.println("月曜");
+		} else if (num == 2) {
+			System.out.println("火曜");
+		} else if (num == 3) {
+			System.out.println("水曜");
+		} else if (num == 4) {
+			System.out.println("木曜");
+		} else if (num == 5) {
+			System.out.println("金曜");
+		} else if (num == 6) {
+			System.out.println("土曜");
+		} else {
+			System.out.println("0～6の整数を入力してください");
 		}
-
-		if(week == null) {
-			week = "";
-		}
-		System.out.println(week);
 	}
 }

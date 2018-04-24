@@ -57,6 +57,9 @@ public class PTra04_05 {
 					System.out.println("勝ちました。終わり。");
 					winFlg = true;
 					break;
+				default:
+					System.out.println("判定出来ない！もう一回！");
+					continue;
 				}
 
 
@@ -75,6 +78,9 @@ public class PTra04_05 {
 				case 2:
 					System.out.println("負けです。まだ終わりません。");
 					continue;
+				default:
+					System.out.println("判定出来ない！もう一回！");
+					continue;
 				}
 
 
@@ -91,6 +97,10 @@ public class PTra04_05 {
 					break;
 				case 2:
 					System.out.println("あいこです。まだ終わりません。");
+					continue;
+
+				default:
+					System.out.println("判定出来ない！もう一回！");
 					continue;
 				}
 
