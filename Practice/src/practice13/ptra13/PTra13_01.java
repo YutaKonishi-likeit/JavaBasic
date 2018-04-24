@@ -6,7 +6,7 @@
  */
 package practice13.ptra13;
 
-public class PTra13_01 extends  practice13.common.Animal {
+public class PTra13_01 extends practice13.common.Animal {
 
 	/*
 	 * ★ PTra13_01クラスはcommon.Animalクラスを継承してください
@@ -25,5 +25,6 @@ public class PTra13_01 extends  practice13.common.Animal {
 		// ★ PTra13_01の持つインスタンスメソッドrunとbreathを実行してしてください
 		ptra1301.run();
 		ptra1301.breath();
+
 	}
 }

@@ -60,6 +60,10 @@ public class Character {
 		return this.power;
 	}
 
+	public int getAttack() {
+		return this.power;
+	}
+
 	/**
 	 * ダメージ判定を行います
 	 * @param attack 攻撃値
@@ -96,7 +100,7 @@ public class Character {
 		str.append("\n");
 		str.append("体　力：" + this.hp);
 		str.append("\n");
-		str.append("　力　：" + this.power);
+		str.append("　力　：" + this.attack());
 		str.append("\n");
 		str.append("耐　久：" + this.endurance);
 
